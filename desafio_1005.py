@@ -18,3 +18,25 @@ de imprimir o fim de linha após o resultado, caso contrário, você receberá
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1005
 
 # Escreva sua solução abaixo
+
+# Leitura dos valores de ponto flutuante
+A = float(input())
+B = float(input())
+
+# Definição dos pesos
+peso_A = 3.5
+peso_B = 7.5
+
+# Cálculo da média ponderada
+# A fórmula é: (NotaA * PesoA + NotaB * PesoB) / Soma dos Pesos
+media = (A * peso_A + B * peso_B) / 11.0
+
+# Impressão do resultado com 1 casa decimal conforme solicitado
+print(f"MEDIA = {media:.1f}")
+
+
+
+
+
+
+
